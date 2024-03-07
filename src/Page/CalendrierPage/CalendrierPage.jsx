@@ -13,7 +13,6 @@ export default function CalendrierPage() {
                     <ImportantDateContainer key={"k" + index} date={item}/>)
                 )}
             </div>
-
         </div>
     </DashboardLayout>
   )

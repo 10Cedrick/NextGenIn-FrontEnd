@@ -37,7 +37,6 @@ export default function ClubPage() {
                             <h1 className='text-4xl'>{currentClub.nomClub}</h1>
                             <div className='px-5'>
                                 <div>
-                                    <h2 className='mt-8 text-lg'>Description :</h2>
                                     <p className='mt-6'>{currentClub.description}</p>
                                 </div>
                                 <div>

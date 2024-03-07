@@ -197,3 +197,5 @@ export const listAutreClub = [
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
     },
 ]
+
+export const eventsDSA = []

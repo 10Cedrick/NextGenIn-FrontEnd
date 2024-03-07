@@ -9,11 +9,11 @@ export default function Dashboard() {
     <DashboardLayout>
         <div>
             <h1 className="text-lg section-title ">Evenement Marquant</h1>
-            <ImportantEventContainer className="mt-16"/>
+            <ImportantEventContainer className=""/>
         </div>
         <div className="pt-8 mt-24 ">
                 <h1 className="text-lg section-title ">Club qui pourrait vous intéresser</h1>
-                <div className="flex flex-row space-x-16 mt-16">
+                <div className="flex flex-row gap-2 mt-16">
                     {clubs.map((item, index) => (
                         <ClubOverview item={item} key={index}/>
                     )

@@ -1,5 +1,6 @@
-import {useState} from 'react'
+import {useState, } from 'react'
 import {useForm} from 'react-hook-form'
+import { useNavigate } from 'react-router-dom';
 import { Button, Form, Input, Checkbox  } from 'antd';
 import { logoNext } from '../../assets';
 import './InscriptionForm.css'
@@ -8,7 +9,11 @@ export default function InscriptionForm() {
     const [form]  = Form.useForm();
     const [formLayout, setFormLayout] = useState('vertical');
     const {handleSubmit, register, formState: {errors}} = useForm();
+    const navigate = useNavigate();
     const onSubmit = () => {
+    }
+    const handleInterest = () => {
+        navigate('/interest')
     }
     const onCheck1 = () => {
     }
@@ -24,9 +29,7 @@ export default function InscriptionForm() {
             <h1 className='text-[26px] text-slate-400 '>Bienvenue</h1>
         </div>
         <section className='mt-4'>
-            <Form
-            layout={formLayout} 
-            onSubmit={handleSubmit(onSubmit)} action="" className='mt-4 w-3/4'>
+            <Form layout={formLayout} onSubmit={handleSubmit(onSubmit)} action="" className='mt-4 w-3/4'>
                 <div className='flex flex-col space-y-2 items-start'>
                     <label className='' htmlFor="">Votre nom</label>
                     <Input style={{height: '45px'}}
@@ -58,7 +61,7 @@ export default function InscriptionForm() {
                     <div className='flex flex-row space-x-1'><Checkbox onChange={onCheck2}>Souscrire à la newsletter de l'application</Checkbox></div>
                 </div>
                 <div className='mt-8'>
-                    <Button htmlType="submit" size='large' className='px-8'>
+                    <Button size='large' className='px-8' onClick={handleInterest}>
                         S'inscrire
                     </Button>
                 </div>

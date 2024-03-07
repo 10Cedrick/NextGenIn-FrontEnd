@@ -8,6 +8,7 @@ import femme from "./femme.png"
 import garcon1 from "./femme.png"
 import garcon2 from "./garcon2.png"
 import dsaAvatar from "./dsaAvatar.jpg"
+import reception from "./reception.jpg"
 export{
     goal,
     logoNext,
@@ -18,5 +19,6 @@ export{
     dsaAvatar,
     femme,
     garcon1,
-    garcon2
+    garcon2,
+    reception
 }
