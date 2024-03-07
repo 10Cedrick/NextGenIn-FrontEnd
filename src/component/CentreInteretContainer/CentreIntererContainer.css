@@ -1,14 +1,7 @@
-.title-text
-{
-    color:  #1A374D;
-}
-.appName{
-    color: #0D8CEB;
-}
-
-.form-container{
+.containerInteret{
     background: rgba(233, 231, 231, 0.2);
     backdrop-filter: blur(1px);
     border-radius: 10px;
     padding: 20px;
 }
+

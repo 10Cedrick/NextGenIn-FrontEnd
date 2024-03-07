@@ -16,8 +16,8 @@ export default function InscriptionForm() {
     }
   return (
     
-    <aside className='text-stone-900 w-1/2 h-screen px-16 pt-28 relative' >
-        <div className='flex flex-row items-center text-[30px] absolute top-10'>
+    <aside className='text-stone-900 w-1/2 h-screen px-16 pt-28 relative form-container' >
+        <div className='flex flex-row items-center text-[30px] absolute top-10 '>
             <img src={logoNext} alt="" className='w-5 h-auto '/><span className='ml-2'>NextGen In</span>
         </div>
         <div className='mt-2'>
