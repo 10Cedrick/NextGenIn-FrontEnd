@@ -1,7 +1,7 @@
-.containerInteret{
-    background: rgba(233, 231, 231, 0.2);
-    backdrop-filter: blur(1px);
-    border-radius: 10px;
+.containerInteret {
+    background: rgba(233, 231, 231, 0.1);
+    backdrop-filter: blur(2px); /* Augmentation du flou pour plus de douceur */
     padding: 20px;
+    border-radius: 8px; /* Arrondi des coins */
+    color: #333; /* Couleur du texte plus foncée pour le contraste */
 }
-

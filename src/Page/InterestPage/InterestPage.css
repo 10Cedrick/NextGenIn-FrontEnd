@@ -1,3 +1,11 @@
 .title{
     font-weight: 500;
 }
+
+.gradient{
+    background: linear-gradient(to left, #87ceeb, #ffffff);
+    backdrop-filter: blur(10px);
+    height: 150px;
+    width: 150px;
+
+}

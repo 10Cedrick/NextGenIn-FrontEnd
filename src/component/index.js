@@ -8,6 +8,7 @@ import ImportantEventContainer from "./ImportantEventContainer/ImportantEventCon
 import FaqItem from "./FAQItem/FaqItem"
 import SidebarConnect from "./SidebarConnect/SidebarConnect"
 import ImportantDateContainer from "./ImportantDateContainer/ImportantDateContainer"
+import ForumListItem from "./ForumListItem/ForumListItem"
 export{
     InscriptionForm,
     Navbar,
@@ -18,5 +19,6 @@ export{
     ImportantEventContainer,
     FaqItem,
     SidebarConnect,
-    ImportantDateContainer
+    ImportantDateContainer,
+    ForumListItem
 }

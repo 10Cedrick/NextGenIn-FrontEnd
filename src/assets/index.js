@@ -13,6 +13,7 @@ import basket from "./basket.svg"
 import mic from "./mic.svg"
 import art from "./art.svg"
 import math from "./math.svg"
+import langage from "./langage.svg"
 export{
     goal,
     logoNext,
@@ -29,4 +30,5 @@ export{
     mic,
     art,
     math,
+    langage
 }
