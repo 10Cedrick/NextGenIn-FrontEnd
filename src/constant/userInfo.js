@@ -1,5 +1,5 @@
-import { avatar } from "../assets"
+import { femme } from "../assets"
 export const userInfo = {
-    avatar: avatar,
-    name: 'John Doe',
+    avatar: femme,
+    name: 'Malanto',
 }

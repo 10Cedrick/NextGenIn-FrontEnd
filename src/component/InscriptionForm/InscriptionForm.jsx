@@ -45,13 +45,13 @@ export default function InscriptionForm() {
                     <div className='flex flex-col flex-1 space-y-2 items-start '>
                         <label
                         className='' htmlFor="">Créer un mot de passe</label>
-                        <Input style={{height: '45px'}}
+                        <Input type='password' style={{height: '45px'}}
                         prefix={<LockOutlined className="text-slate-400 mt-[1px] mr-2 ml-1" 
                         />}/>
                     </div>
                     <div className='flex flex-col flex-1 space-y-2 items-start'>
                         <label className='' htmlFor="">Valider votre mot de passe</label>
-                        <Input style={{height: '45px'}}
+                        <Input type='password' style={{height: '45px'}}
                         prefix={<LockOutlined className="text-slate-400 mt-[1px] mr-2 ml-1" />}
                         />
                     </div>

@@ -3,7 +3,8 @@ import { useEffect, useState } from 'react'
 import { clubs } from '../../constant/clubInfo'
 import { MdArrowBack } from "react-icons/md";
 import { Tag } from 'antd';
-import { ListItemPic } from '../../component';
+import { ListItemPic, EventListItem} from '../../component';
+import { eventsList } from '../../constant/EventInfo';
 export default function ClubPage() {
     const {id} = useParams()
     const [currentClub, setCurrentClub] = useState(null)
@@ -51,6 +52,18 @@ export default function ClubPage() {
                             </div>
                         </div>
                         
+                        <div className='mt-11'>
+                            <h1 className='text-xl section-title'>Les evènements prochains du club</h1>
+                        </div>
+                        <div>
+                            {eventsList.map((item, index) => {
+                                if(item.clubId === currentClub.id){
+                                    return (<EventListItem key={"e" + index} item={item}>
+                                        
+                                    </EventListItem>)
+                                }
+                            })}
+                        </div>
                     </div>
 
                     <div className='h-screen border-l border-slate-100 px-8 pt-16'>

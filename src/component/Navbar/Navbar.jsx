@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Button } from 'antd';
 import { logoNext } from '../../assets';
+import './Navbar.css';
+
 export default function Navbar() {
+    const [active, setActive]= useState('Accueil');
+
     const navLinks = [{
         url: '/',
         text: 'Accueil'
@@ -19,13 +23,13 @@ export default function Navbar() {
     <nav className=" mt-4 ">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex flex-1 items-center justify-start">
-          <a href="#" className="text-violet-950 font-semibold text-xl pl-24 flex flex-row items-center"><img src={logoNext} alt="" className='w-5 h-auto'/><span className='ml-2'>NextGen In</span></a>
+          <a href="#" className="text-black font-semibold text-xl pl-24 flex flex-row items-center"><img src={logoNext} alt="" className='w-5 h-auto'/><span className='ml-5 font-bold'>NextGen In</span></a>
         </div>
         <div className="flex flex-1 justify-center">
             {navLinks.map((nav, index) => (
-                <a href={nav.url} className="text-violet-950 hover:text-violet-700 font-semibold px-3 py-2 rounded-md text-xs ">{nav.text}</a>   
+                <a key={index} href={nav.url} onClick={()=>setActive(nav.text)}  className={`text-black font-semibold px-5 py-2 rounded-md text-xs link-navbar relative ${active===nav.text && 'active'}`}>{nav.text}</a>   
             ))}
-            <a href="/signing"><Button>S'inscrire</Button></a>
+            <a href="#"><Button id='navBar__login--btn'>Se connecter</Button></a>
         </div>
       </div>
     </nav>

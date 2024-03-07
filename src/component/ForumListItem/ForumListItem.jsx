@@ -4,10 +4,9 @@ import { MdPerson, MdArrowForward } from "react-icons/md";
 export default function ForumListItem({ forum }) {
     const { sujetForum, initiateur, id } = forum;
   return (
-    <div className="bg-white p-4 rounded-md shadow-md mb-4">
+    <div className="bg-white p-4 rounded-md mb-4 w-full">
       <h2 className="text-lg font-semibold mb-2">{sujetForum}</h2>
       <div className="flex items-center mb-2">
-        <MdPerson className="mr-2" />
         <img src={initiateur.avatar} alt="Avatar" className="w-8 h-8 rounded-full" />
         <span className="ml-2">{initiateur.nom}</span>
       </div>

@@ -9,6 +9,9 @@ import FaqItem from "./FAQItem/FaqItem"
 import SidebarConnect from "./SidebarConnect/SidebarConnect"
 import ImportantDateContainer from "./ImportantDateContainer/ImportantDateContainer"
 import ForumListItem from "./ForumListItem/ForumListItem"
+import CalendarComponent from "./CalendarComponent/CalendarComponent"
+import EventListItem from "./EnventListItem/EventListItem"
+import ContaintLanding from "./LandingPageContaints/ContaintLanding"
 export{
     InscriptionForm,
     Navbar,
@@ -20,5 +23,8 @@ export{
     FaqItem,
     SidebarConnect,
     ImportantDateContainer,
-    ForumListItem
+    ForumListItem,
+    CalendarComponent, 
+    EventListItem, 
+    ContaintLanding
 }

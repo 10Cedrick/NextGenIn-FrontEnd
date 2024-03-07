@@ -1,5 +1,5 @@
 import { avatar, femme } from "../assets";
-const listeForums = [
+export const listeForums = [
     {
       id: 1,
       sujetForum: "Discussion générale",

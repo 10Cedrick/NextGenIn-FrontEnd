@@ -1,9 +1,10 @@
 import React from 'react'
 import { Sidebar, SidebarConnect } from '../component'
+import "./DashboardLayout.css"
 
 export default function DashboardLayout({children}) {
   return (
-    <div className='flex flex-row bg-slate-50'>
+    <div className='flex flex-row bg-principale'>
         <div className="">
             <Sidebar />
         </div>

@@ -14,10 +14,20 @@ import mic from "./mic.svg"
 import art from "./art.svg"
 import math from "./math.svg"
 import langage from "./langage.svg"
+import landingPuzzle from "./landingPuzzle.png"
+import club from "./club.png"
+import interet from "./interet.png"
+import ecole from "./ecole.png" 
+import artCeni from './artCeni.jpg'
+import english from './english.jpg'
 export{
     goal,
     logoNext,
     connect,
+    landingPuzzle,
+    club,
+    interet,
+    ecole,
     puzzle1,
     puzzle2,
     avatar,
@@ -30,5 +40,7 @@ export{
     mic,
     art,
     math,
-    langage
+    langage,
+    artCeni,
+    english
 }

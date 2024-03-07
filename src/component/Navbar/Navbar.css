@@ -1,0 +1,34 @@
+#navBar__login--btn{
+    border-color: #10a37f;
+    color: #10a37f;
+}
+
+
+#navBar__login--btn:hover{
+    background-color: #10a37f;
+    color: white;
+}
+
+.link-navbar:hover{
+    color: #10a37f;
+}
+.link-navbar:after{
+    content: '';
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #10a37f;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.active::after{
+    opacity: 1;
+}
+.link-navbar.active{
+    color: #10a37f;
+}

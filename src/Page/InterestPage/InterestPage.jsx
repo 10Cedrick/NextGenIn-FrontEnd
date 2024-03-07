@@ -42,9 +42,9 @@ export default function InterestPage() {
         ))}
       </div>
       <div className="absolute flex right-0 mr-36">
-        <Button size='large' className='' style={{ padding: '5px 150px' }}>
+        <a href="/dashboard"><Button size='large' className='' style={{ padding: '5px 150px' }}>
           <div className="flex flex-row items-center"><span className="mr-4">Poursuivre</span> <MdArrowForward /></div>
-        </Button>
+        </Button></a>
       </div>
     </div>
   );

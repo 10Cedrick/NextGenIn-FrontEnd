@@ -1,5 +1,5 @@
-import { avatar, femme, garcon1, garcon2 } from "../assets"
-import { dsaAvatar } from "../assets"
+import { avatar, english, femme, garcon1, garcon2 } from "../assets"
+import { dsaAvatar, artCeni } from "../assets"
 export const clubs = [
     {
         id: 1,
@@ -40,6 +40,7 @@ export const clubs = [
         id: 2,
         nomClub: 'ArtCENI',
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
+        avatar: artCeni,
         listeCentreInteret: [
             {
                 interestName: 'Art oratoire'
@@ -67,102 +68,51 @@ export const clubs = [
     {
         id: 3,
         nomClub: "ECP Club d'anglais",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
+        avatar: english,
+        description: "English club for practicing and improving skills ",
         listeCentreInteret: [
             {
                 interestName: 'Art oratoire'
-            },      
+            }, 
+            {
+                interestName: 'Langue et parler'
+            },     
         ],
         mentors: [
             {
-                avatar: avatar,
-                name: 'Test',
+                avatar: femme,
+                name: 'MioraTiana',
                 lienFacebook : '#'  
             },
             {
                 avatar: avatar,
-                name: 'Unknown',
+                name: 'Raphael',
                 lienFacebook : '#'  
             },
             {
-                avatar: avatar,
-                name: 'Rookie',
+                avatar: femme,
+                name: 'Fy',
                 lienFacebook : '#'  
             },
     
     ],
     },
-    {
-        id: 4,
-        nomClub: "Club de danse",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
-        listeCentreInteret: [
-            {
-                interestName: 'Art oratoire'
-            },      
-        ],
-        mentors: [
-            {
-                avatar: avatar,
-                name: 'Test',
-                lienFacebook : '#'  
-            },
-            {
-                avatar: avatar,
-                name: 'Unknown',
-                lienFacebook : '#'  
-            },
-            {
-                avatar: avatar,
-                name: 'Rookie',
-                lienFacebook : '#'  
-            },
     
-    ],
-    },
-    {
-        id: 5,
-        nomClub: "AS ENI Hoopers",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
-        listeCentreInteret: [
-            {
-                interestName: 'Art oratoire'
-            },      
-        ],
-        mentors: [
-            {
-                avatar: avatar,
-                name: 'Test',
-                lienFacebook : '#'  
-            },
-            {
-                avatar: avatar,
-                name: 'Unknown',
-                lienFacebook : '#'  
-            },
-            {
-                avatar: avatar,
-                name: 'Rookie',
-                lienFacebook : '#'  
-            },
-    
-    ],
-    },
 ]
 
 export const sameInterestUsers = [{
-    avatar: avatar,
-    name: 'Test',
+    avatar: femme,
+    name: 'MioraTiana',
     lienFacebook : '#'  
 },
 {
     avatar: avatar,
-    name: 'Unknown',
+    name: 'Raphael',
     lienFacebook : '#'  
 },
 {
-    avatar: avatar,
-    name: 'Rookie',
+    avatar: femme,
+    name: 'Fy',
     lienFacebook : '#'  
 },
 ]
@@ -171,16 +121,19 @@ export const listClub = [
     {
         id: 1,
         nomClub: 'ENI DSA',
+        avatar: dsaAvatar,
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
     },
     {
         id: 2,
         nomClub: 'ArtCENI',
+        avatar: artCeni,
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
     },
     {
         id: 3,
         nomClub: "ECP CLub d'anglais",
+        avatar: english,
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
     },
 ]
