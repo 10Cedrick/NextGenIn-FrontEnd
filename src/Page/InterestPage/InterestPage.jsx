@@ -2,7 +2,30 @@ import { CentreIntererContainer } from "../../component"
 import {Button} from 'antd'
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 import './InterestPage.css'
-import { listeCentreInteret } from "../../constant/InterestInfo";reInteret
+import { MdDirectionsRun, MdMic, MdFunctions, MdRecordVoiceOver, MdLanguage  } from 'react-icons/md';
+import { basket, mic, art, math} from "../../assets";
+const listeCentreInteret = [{
+  icon: <img src={basket} className="w-45 h-auto "/>,
+  interestName: 'Sport',
+},
+{
+  icon: <img src={mic} className="w-45 h-auto "/>,
+  interestName: 'Chant'
+},
+{
+  icon: <img src={math} className="w-45 h-auto "/>,
+  interestName: 'Mathématique'
+},
+{
+  icon: <img src={art} className="w-45 h-auto "/>,
+  interestName: 'Art oratoire'
+},
+{
+  icon: <MdLanguage />,
+  interestName: 'Langue et parler'
+},
+
+]
 export default function InterestPage() {
 
   return (

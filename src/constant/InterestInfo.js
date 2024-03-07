@@ -1,22 +1,22 @@
 import { MdDirectionsRun, MdMic, MdFunctions, MdRecordVoiceOver, MdLanguage  } from 'react-icons/md';
     export const listeCentreInteret = [{
-    icone: <MdDirectionsRun className='text-3xl' />,
+    icone: <MdDirectionsRun />,
     interestName: 'Sport',
   },
   {
-    icone: <MdMic className='text-3xl' />,
+    icone: <MdMic />,
     interestName: 'Chant'
   },
   {
-    icone: <MdFunctions className='text-3xl' />,
+    icone: <MdFunctions />,
     interestName: 'Mathématique'
   },
   {
-    icone: <MdRecordVoiceOver  className='text-3xl' />,
+    icone: <MdRecordVoiceOver  />,
     interestName: 'Art oratoire'
   },
   {
-    icone: <MdLanguage className='text-3xl' />,
+    icone: <MdLanguage />,
     interestName: 'Langue et parler'
   },
   

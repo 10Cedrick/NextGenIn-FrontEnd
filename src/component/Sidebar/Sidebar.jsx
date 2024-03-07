@@ -5,7 +5,7 @@ import { logoNext } from "../../assets"
 const navLinks = [{
     url: '/dashboard',
     text: 'Accueil',
-    icon: <MdOutlineHome />
+    icon: <img />
   },
   {
     url: '/calendrier',

@@ -9,6 +9,10 @@ import garcon1 from "./femme.png"
 import garcon2 from "./garcon2.png"
 import dsaAvatar from "./dsaAvatar.jpg"
 import reception from "./reception.jpg"
+import basket from "./basket.svg"
+import mic from "./mic.svg"
+import art from "./art.svg"
+import math from "./math.svg"
 export{
     goal,
     logoNext,
@@ -20,5 +24,9 @@ export{
     femme,
     garcon1,
     garcon2,
-    reception
+    reception,
+    basket,
+    mic,
+    art,
+    math,
 }
