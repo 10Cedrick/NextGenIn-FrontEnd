@@ -1,8 +1,22 @@
 import InscriptionForm from "./InscriptionForm/InscriptionForm"
 import Navbar from "./Navbar/Navbar"
 import CentreIntererContainer from "./CentreInteretContainer/CentreIntererContainer"
+import ListItemPic from "./ListItemPic/ListItemPic"
+import Sidebar from "./Sidebar/Sidebar"
+import ClubOverview from "./ClubOverview/ClubOverview"
+import ImportantEventContainer from "./ImportantEventContainer/ImportantEventContainer"
+import FaqItem from "./FAQItem/FaqItem"
+import SidebarConnect from "./SidebarConnect/SidebarConnect"
+import ImportantDateContainer from "./ImportantDateContainer/ImportantDateContainer"
 export{
     InscriptionForm,
     Navbar,
-    CentreIntererContainer
+    CentreIntererContainer,
+    ListItemPic,
+    Sidebar,
+    ClubOverview,
+    ImportantEventContainer,
+    FaqItem,
+    SidebarConnect,
+    ImportantDateContainer
 }
